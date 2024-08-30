@@ -1,0 +1,202 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#logo {
+   height: 350px;
+   width: 60%;
+   display: inline  ;
+   margin: 0px 20%;
+   padding: 0px;
+   position: relative;
+   text-align: center;
+   border: solid 5px;
+   border-color: #f38598;
+}
+
+
+.menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: right; 
+}
+
+.menu li {
+    font-size: 25px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.menu li a {
+    text-decoration: none; 
+    color: #4478d8; 
+    font-weight: bold; 
+    font-family: sans-serif;
+    border: solid 1px #605ddf;
+    border-radius: 5px;
+    
+}
+
+.menu li a:hover {
+    color: #d83535; 
+    font-size: 30px;
+}
+
+.divfundo{
+    background-color:#f7748a;
+    height: 100px;
+}
+
+.rodape {
+    background-color:#f7748a;
+    color: white;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+.rodape a {
+    text-decoration: none;
+    padding: 5px 5px 5px 0px;
+    background-color:  #f38598;
+    color: white
+}
+.hero-content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-image, .testimonial img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-donate {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#f7748a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.corpo h2 {
+   font-size: 40px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left: 20px;
+   color: #4478d8;
+}
+.corpo p {
+   font-size: 22px;
+}
+.corpo img, a, p{
+   margin-left: 10px;
+}
+
+.galeria{
+    display:  flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center  ;
+    border-bottom: 20px solid rgb(105, 105, 245);
+    max-width: 100%;
+    height: 650px;
+    background-image: url(/imagens/Galeria\ de\ fotos.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.galeria h1 {
+ color: rgb(122, 132, 153);
+ margin: 0px;
+ font-size: 100px;  
+ font-family: sans-serif; 
+}
+
+.fotos {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-image {
+    position: relative; 
+    width: 30%; 
+    margin: 0 5px; 
+}
+
+
+.container-image img {
+    width: 300px;
+    height: 200px;
+    border: solid 2px black;
+}
+
+
+.texto-emcima{
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 0 100px 10px 0;
+}
+
+.visite{
+    margin-left: 50px;
+    color:#4478d8;
+}
+.visite p{
+    font-size: 20px;
+    margin: 0;
+    color: #f7748a;
+}
+.visite h1{
+    margin: 10px;
+
+}
+.visite p a {
+    text-decoration: none;
+    color: #f7748a;
+}
+
+.deposito{
+    text-align: center;
+    color: #4478d8;
+}
+
+.deposito h1 {
+    padding-top: 40px;
+    font-size: 50px;
+}
+.deposito p{
+    color: #f7748a;
+    font-size: 20px;
+
+}
+
+.deposito p b{
+    color: #4478d8;
+    font-size: 20px;
+}
+
+.deposito h2{
+    font-size: 35px;
+}
+
+.itau:hover{
+    height: 200px;
+    width: 200px;
+}
+.pix:hover{
+    height:400px;
+    width: 400px;
+}
